@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+}
+
+header{
+    color: yellow;
+    text-align: center;
+}
+img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+.p1{
+    color: oldlace;
+    font-weight: bold;
+}
+main{
+    box-shadow: 0 0 20px rgb(255 255 255 / 0.5);
+    background-color:  rgb(0 255 255 / 0.6);
+    color: black;
+    width: 800px;
+    padding: 20px;
+    margin: 20px auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.skill {
+    padding: 2px 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#contactme a{
+    text-decoration: none;
+}
+#contactme{
+    text-align: center;
+}
+.skill:hover{
+    background-color: yellow;
+    color: black;
+}
