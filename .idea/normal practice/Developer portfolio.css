@@ -1,0 +1,56 @@
+body{
+    width: 1200px;
+    margin: 20px auto;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+}
+h2{
+    color: yellow;
+}
+h3{
+    color: cyan;
+}
+h4{
+    color: yellowgreen;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border: solid 2px black;
+    border-radius: 50%;
+}
+.nav.container{
+    display: flex;
+    align-content: center;
+    gap: 15px
+}
+nav{
+    padding: 5px 10px;
+    margin: 20px auto;
+    border: solid 1px black;
+    background-color: darkcyan;
+    align-content: center;
+    color: yellow;
+}
+nav:havor{
+
+}
+.skill.container{
+    display: flex;
+    align-content: center;
+    gap: 15px;
+}
+.skills{
+    padding: 5px 10px;
+    margin: 20px auto;
+    border: solid 1px black;
+    background-color: darkcyan;
+    align-content: center;
+    color: yellow;
+}
+footer{
+    margin: 5px;
+    letter-spacing: 2px;
+    color: red;
+}

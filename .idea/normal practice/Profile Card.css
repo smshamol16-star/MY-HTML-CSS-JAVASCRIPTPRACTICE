@@ -2,6 +2,9 @@ body{
     background-color: black;
 }
 
+h2{
+    color: yellow;
+}
 header{
     color: yellow;
     text-align: center;
@@ -50,5 +53,5 @@ main{
 }
 .skill:hover{
     background-color: yellow;
-    color: black;
+    color: black;(important)
 }
